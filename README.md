@@ -50,6 +50,11 @@ Cualquier transición fuera de estas reglas definidas o cualquier carácter no a
 * **Casos de Prueba Exhaustivos:** La función constructora del punto de entrada (`main`) implementa pruebas automatizadas para asegurar la cobertura total de los flujos del autómata.
 
 ---
+## 🗺️ Arquitectura del Autómata (Diagrama de Estados)
+
+![Diagrama de Transiciones para Números](diagrama_fsa.png)
+
+El código emula el comportamiento del flujo de control basado en transiciones...
 
 ## 💻 Compilación e Instalación
 
@@ -63,3 +68,4 @@ Navega hasta el directorio que contiene tu archivo fuente y ejecuta:
 
 ```bash
 g++ -std=c++11 main.cpp -o validador_fsa
+
